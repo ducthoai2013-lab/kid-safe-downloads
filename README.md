@@ -1,7 +1,12 @@
 # kid-safe-downloads
 
-Binary-only distribution mirror for KidGuard release APKs (no source code).
-Used so phone/browser downloads are served via GitHub's CDN instead of the origin VPS.
+Binary-only distribution mirror for KidGuard release files (no source code).
+Used so phone/browser downloads and in-app updates are served via GitHub's CDN instead of the origin VPS.
 
-- kidguard-parent-1.0.0.apk
-- kidguard-student-1.0.0.apk
+Current (1.1.0):
+- kidguard-parent-1.1.0.apk - parent app (Android)
+- kidguard-student-1.1.0.apk - student app (Android), also what the in-app update downloads
+- kidguard-windows-1.1.0.zip - Windows installer package (installer GUI + service + helper), unsigned
+- kidguard-windows-service-1.1.0.exe - the Windows agent service alone, what the silent auto-update downloads
+
+Older (1.0.0) files stay until the website points at 1.1.0, then they are removed.
