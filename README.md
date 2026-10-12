@@ -10,6 +10,5 @@ Current:
 - kidguard-student-1.1.2.apk - student app (Android), also what the in-app update downloads
 - kidguard-windows-1.1.2.zip - Windows installer package (installer GUI + service + helper), unsigned
 - kidguard-windows-service-1.1.2.exe - the Windows agent service alone, what the silent auto-update downloads
-- kidguard-windows-service-1.1.0.exe - kept until the 1.1.1 update row is registered
 
 Older versions are removed once the website points at the new one (history keeps them).
